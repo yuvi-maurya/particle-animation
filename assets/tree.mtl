@@ -1,0 +1,18 @@
+# Exact PNG texture plus a solid edge material
+newmtl exact_texture
+Ka 1.0000 1.0000 1.0000
+Kd 1.0000 1.0000 1.0000
+Ks 0.2200 0.2200 0.2200
+Ns 55.0000
+d 1.0000
+illum 2
+map_Kd tree_texture.png
+map_d tree_texture.png
+
+newmtl edge_material
+Ka 0.0897 0.0923 0.0233
+Kd 0.4078 0.4196 0.1059
+Ks 0.3000 0.3000 0.3000
+Ns 45.0000
+d 1.0000
+illum 2

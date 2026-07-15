@@ -1,0 +1,109 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Python tooling and test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.cache/
+
+# Python packaging/build output
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+logs/
+tmp/
+temp/
+
+# Generated renderer/test output
+artifacts/
+output/
+outputs/
+renders/
+debug/
+debug_output/
+benchmark_output/
+benchmark_results/
+orientation_renders/
+self_test_output/
+test_output/
+captures/
+recordings/
+
+# Generated model caches and LOD output
+assets/models/.cache/
+assets/models/cache/
+assets/models/generated_cache/
+assets/models/lod_cache/
+model_cache/
+*.cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating-system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Keep source assets trackable
+!assets/
+!assets/**/*.obj
+!assets/**/*.mtl
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.webp
+!assets/**/*.json
+!assets/models/
+!assets/models/**/*.obj
+!assets/models/**/*.mtl
+!assets/models/**/*.png
+!assets/models/**/*.jpg
+!assets/models/**/*.jpeg
+!assets/models/**/*.webp
+!assets/models/**/*.json
