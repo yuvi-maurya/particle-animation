@@ -1,12 +1,3 @@
-"""
-Webcam-controlled 3D OBJ model box.
-
-Selectable objects are real OBJ meshes only. The physical left hand positions
-and scales the shared rotating cube/model, and a left thumb-index pinch hides
-or shows it. The physical right hand switches models with an open-to-fist
-gesture.
-"""
-
 from __future__ import annotations
 
 import argparse
